@@ -1,0 +1,12 @@
+[project]
+name = "app-ia-vs-humans"
+version = "0.1.0"
+description = "Estadística computacional: análisis comparativo IA vs Humanos"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "networkx>=3.6.1",
+    "polars>=1.40.1",
+    "streamlit>=1.57.0",
+]

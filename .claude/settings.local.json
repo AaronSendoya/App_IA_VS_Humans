@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv --version)",
+      "PowerShell(uv --version)",
+      "PowerShell(& \"c:\\\\Users\\\\LOQ\\\\Desktop\\\\app_ia_vs_humans\\\\.venv\\\\Scripts\\\\python.exe\" -c \"import streamlit; import polars; import networkx; import matplotlib; print\\('OK - todas las dependencias instaladas'\\)\" 2>&1)",
+      "PowerShell(python --version 2>&1)",
+      "PowerShell(python3 --version 2>&1)",
+      "PowerShell(py --version 2>&1)",
+      "PowerShell(Get-Command uv -ErrorAction SilentlyContinue; Get-Item \"$env:USERPROFILE\\\\.cargo\\\\bin\\\\uv.exe\" -ErrorAction SilentlyContinue; Get-Item \"$env:LOCALAPPDATA\\\\uv\\\\bin\\\\uv.exe\" -ErrorAction SilentlyContinue; $env:PATH -split \";\" | Select-String -Pattern \"uv|python|Python\" | Select-Object -First 10)",
+      "PowerShell(& \"C:\\\\Python313\\\\python.exe\" --version 2>&1)"
+    ]
+  }
+}
